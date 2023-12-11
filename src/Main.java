@@ -11,8 +11,10 @@ public class Main {
         kilo= sc.nextFloat();
         System.out.println("Lutfen Boyunuzu Giriniz");
         boy= sc.nextFloat();
+        //vucut kitle indeksini hesaplayan program
        vki=kilo/(boy*boy);
         System.out.println("Vucut Kitle Indeksiniz: "+vki);
+        //Zayif, Normal, Fazla kilolu, Obez yazdiran dongu
         if(vki<18.5){
             System.out.println("Zayif");
         }else if((18.5 <= vki )&& (vki < 24.9)){

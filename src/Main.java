@@ -7,7 +7,7 @@ public class Main {
         //kullaniciden boy ve kilosunu aldim
         Scanner sc= new Scanner(System.in);
         System.out.println("Vucut Kitle Indeksi Hesaplayan program");
-        System.out.println("Lutfen Cekinizi Giriniz");
+        System.out.println("Lutfen kilonuzu Giriniz");
         kilo= sc.nextFloat();
         System.out.println("Lutfen Boyunuzu Giriniz");
         boy= sc.nextFloat();
